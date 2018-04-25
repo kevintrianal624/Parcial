@@ -1,0 +1,125 @@
+header{
+	background: #3B7898;
+	color: #fff;
+}
+
+.main{
+	background: #EAEAEA;
+}
+
+.color1{
+	background: #3B7898;
+	color: #fff;
+}
+
+aside{
+	background: #c0392b;
+	color: #fff;
+}
+
+footer{
+	background: #c0392b;
+	color: #fff;
+}
+
+
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+.social{
+	position: fixed;
+	left: 0;
+	top: 40%;
+	padding: 0;
+}
+
+.social ul{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.social ul li a{
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 18px 18px;
+	text-decoration: none;
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook{background: #3b5998;}
+.social ul li .icon-twitter{background: #00abf0;}
+.social ul li .icon-google-plus{background: #d95232;}
+
+.social ul li a:hover{
+	padding: 18px 35px;
+	background: #2c3e50;
+}
+
+.contaform{
+	padding-top: 20px;
+}
+
+.chat-container{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 340px;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	z-index: 999;
+}
+
+.chat-button{
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+	user-select: none;
+	padding: 4px 0;
+	background-color: #337AB7;
+	text-align: center;
+	color: #fff;
+}
+
+.chat-content{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	display: none;
+}
+
+.whatsappchat {
+  position: fixed;
+  display: none;
+  background: #18d26e;
+  color: #fff;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 16px;
+  border-radius: 50%;
+  right: 15px;
+  bottom: 50px;
+  transition: background 0.5s;
+  z-index: 11;
+}
+
+.whatsappchat i {
+  padding-top: 12px;
+  color: #fff;
+  display: inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing:antialiased;
+}
